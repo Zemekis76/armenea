@@ -1,4 +1,4 @@
-// sheets.js
+// item-sheet.js
 class ArmeneaItemSheet extends ItemSheet {
   // ...
 }
