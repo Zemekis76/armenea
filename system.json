@@ -2,7 +2,7 @@
   "name": "armenea",
   "title": "Armenea",
   "description": "Armenea is a tabletop roleplaying game system.",
-  "author": "Your Name",
+  "author": "Robert Wagner",
   "version": "0.1.0",
   "minimumCoreVersion": "0.8.0",
   "compatibleCoreVersion": "1.0.0",
@@ -34,9 +34,9 @@
   ],
   "languages": [
     {
-      "lang": "en",
-      "name": "English",
-      "path": "lang/en.json"
+      "lang": "de",
+      "name": "German",
+      "path": "lang/de.json"
     }
   ],
   "gridDistance": 1.5,
