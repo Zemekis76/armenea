@@ -1,5 +1,5 @@
 // items.js
-import { ArmeneaItemSheet, ArmeneaWeaponSheet } from "./sheets.js";
+import { ArmeneaItemSheet, ArmeneaWeaponSheet } from "./item-sheet.js";
 
 class ArmeneaItem extends Item {
   // ...
