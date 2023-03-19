@@ -1,0 +1,53 @@
+{
+  "name": "armenea",
+  "title": "Armenea",
+  "description": "Armenea is a tabletop roleplaying game system.",
+  "author": "Your Name",
+  "version": "0.1.0",
+  "minimumCoreVersion": "0.8.0",
+  "compatibleCoreVersion": "1.0.0",
+  "packs": [
+    {
+      "name": "armenea-actors",
+      "label": "Armenea Actors",
+      "path": "packs/actors.db",
+      "entity": "Actor"
+    },
+    {
+      "name": "armenea-items",
+      "label": "Armenea Items",
+      "path": "packs/items.db",
+      "entity": "Item"
+    },
+    {
+      "name": "armenea-scenes",
+      "label": "Armenea Scenes",
+      "path": "packs/scenes.db",
+      "entity": "Scene"
+    }
+  ],
+  "styles": [
+    "styles/styles.css"
+  ],
+  "scripts": [
+    "scripts/main.js"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "gridDistance": 1.5,
+  "gridUnits": "m",
+  "initiativeOptions": {
+    "formula": "2d10",
+    "decimal": false
+  },
+  "template": {
+    "Actor": "templates/actor-sheet.html",
+    "Item": "templates/item-sheet.html"
+  },
+  "socket": "system.armenea"
+}
